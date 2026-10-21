@@ -96,7 +96,7 @@ If you find Code2Video-Compass useful, please consider citing our paper:
 
 ## 💬 Contact
 
-For questions about Code2Video-Compass, please contact Zhenghan Chen at [chenzh26@m.fudan.edu.cn](mailto:chenzh26@m.fudan.edu.cn).
+If you have any questions about Code2Video-Compass, feel free to reach out to us at [chenzh26@m.fudan.edu.cn](mailto:chenzh26@m.fudan.edu.cn).
 
 ## 📌 License
 
