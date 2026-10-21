@@ -1,0 +1,19 @@
+.DS_Store
+__pycache__/
+*.pyc
+.env
+.env.*
+!.env.example
+node_modules/
+
+# evaluation run artifacts
+evaluation/**/results.json
+evaluation/**/results.json.tmp
+evaluation/**/checklist_scores/
+evaluation/**/holistic_scores/
+# heavyweight dependencies downloaded per folder
+evaluation/**/checkpoints/
+evaluation/**/third_party/
+# local data roots (dataset comes from Hugging Face; model outputs are yours)
+/generated/
+/inputs/

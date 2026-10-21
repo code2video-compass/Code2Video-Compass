@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="256" height="256" viewBox="0 0 256 256" fill="none" role="img" aria-labelledby="title desc">
+  <title id="title">Code2Video-Compass</title>
+  <desc id="desc">Blue code brackets frame a cyan and violet compass needle, with a simple circular pivot at its center. A pale play triangle sits behind the code and needle inside the circular dial; the surrounding canvas is transparent.</desc>
+  <!-- All shapes remain editable vector geometry. -->
+  <g id="compass-dial">
+    <circle cx="128" cy="128" r="112" fill="#EFF5FF"/>
+    <!-- Video cue stays in the background, behind the compass and code. -->
+    <path id="play-background" d="M89 64C82 60 76 64 76 72V184C76 192 82 196 89 192L196 136C203 132 203 124 196 120Z" fill="#D9E4FA"/>
+    <circle cx="128" cy="128" r="98" stroke="#5689D8" stroke-width="3"/>
+    <path d="M128 30V39 M226 128H217 M128 226V217 M30 128H39" stroke="#397DDD" stroke-width="4" stroke-linecap="round"/>
+    <path d="M61.5 61.5L65 65 M194.5 61.5L191 65 M194.5 194.5L191 191 M61.5 194.5L65 191" stroke="#A9C4EB" stroke-width="2.5" stroke-linecap="round"/>
+  </g>
+  <!-- Together, the brackets and diagonal needle suggest a code tag. -->
+  <g id="code-brackets" stroke="#287BE0" stroke-width="8" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M84 108L63 128L84 148"/>
+    <path d="M172 108L193 128L172 148"/>
+  </g>
+  <g id="compass-needle" stroke-linejoin="round">
+    <path d="M160 61L143 135L113 121Z" fill="#13B9B2"/>
+    <path d="M160 61L128 128L113 121Z" fill="#68DDCB"/>
+    <path d="M96 195L113 121L143 135Z" fill="#9564E4"/>
+    <path d="M96 195L128 128L143 135Z" fill="#BE99F3"/>
+    <path d="M160 61L143 135L96 195L113 121Z" stroke="#586FC0" stroke-width="1.6"/>
+  </g>
+  <!-- Simple compass pivot. -->
+  <g id="compass-pivot">
+    <circle cx="128" cy="128" r="7" fill="#FFFFFF" stroke="#397DDD" stroke-width="2.5"/>
+  </g>
+</svg>
