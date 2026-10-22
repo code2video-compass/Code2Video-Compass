@@ -24,7 +24,7 @@
 Code2Video-Compass evaluates general-purpose code-based video generation from text instructions and optional image or video references. Models create executable video code using HTML/CSS, SVG, Canvas, and Three.js, rendered through Remotion.
 
 <p align="center">
-  <img src="assets/teaser.jpg?v=20261022" width="100%" alt="Code2Video-Compass overview: three input modalities, 2,104 tasks, 10 creative categories, 15 models, and dual-level evaluation">
+  <img src="assets/teaser-20261022.jpg" width="100%" alt="Code2Video-Compass overview: three input modalities, 2,104 tasks, 10 creative categories, 15 models, and dual-level evaluation">
 </p>
 
 - **2,104 tasks** across **10 video categories** and **24 subtypes**.
