@@ -17,6 +17,7 @@
 
 ## 🎉 What's New
 
+- [2026.11] 🎉 The **full Code2Video-Compass dataset (2,104 tasks)** is now publicly available on [Hugging Face](https://huggingface.co/datasets/code2video-compass/Code2Video-Compass). Try it out and share your feedback!
 - [2026.10] 📣 Code2Video-Compass dataset and codebase are released.
 
 ## 🎏 Introduction
