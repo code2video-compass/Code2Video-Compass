@@ -3,7 +3,7 @@
 AMT interpolation error: predict each odd-index frame from its two neighbors
 and score `1 - mean(RGB MAE on 0-255) / 255` over valid middle-frame indices.
 
-Protocol details that affect the score: uniform 12-FPS resampling, short side
+Protocol details that affect the score: uniform 24-FPS resampling, short side
 capped at 512 px, and interpolation targets that straddle a detected hard cut
 (PySceneDetect `ContentDetector`, threshold 27.0, min scene length 15) are
 excluded.

@@ -1,12 +1,12 @@
 #!/usr/bin/env python3
-"""Motion Smoothness (MS): VBench-style AMT-S interpolation at 12 FPS, 512 short side.
+"""Motion Smoothness (MS): VBench-style AMT-S interpolation at 24 FPS, 512 short side.
 
 Setup:
     git clone https://github.com/Vchitect/VBench third_party/VBench
     pip install scenedetect opencv-python-headless
     # download amt-s.pth (see the VBench/AMT release) under checkpoints/amt/
 
-Each output video is resampled to uniform 12-FPS timestamps and downscaled only
+Each output video is resampled to uniform 24-FPS timestamps and downscaled only
 when needed so its short side is at most 512 pixels. Odd sampled frames are
 hidden, and the official VBench-vendored AMT-S predicts them from the
 neighboring even frames. Interpolation targets whose endpoints straddle a
@@ -36,7 +36,7 @@ from scenedetect.detectors import ContentDetector  # noqa: E402
 HERE = Path(__file__).resolve().parent
 TASKS = ("t2v", "i2v", "v2v")
 VIDEO_EXTS = {".mp4", ".mov", ".mkv", ".webm", ".avi"}
-TARGET_FPS = 12.0
+TARGET_FPS = 24.0
 SHORT_SIDE = 512
 CUT_THRESHOLD = 27.0
 CUT_MIN_SCENE_LEN = 15
